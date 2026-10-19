@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1020">
+<title>Vendas para Clientes | Sites que vendem</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><span class="brand-mark">VC</span><span>Vendas para <b>Clientes</b></span></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+  <nav id="nav"><a href="#modelos">Modelos</a><a href="#como-funciona">Como funciona</a><a href="#assistente">Assistente IA</a><button class="btn btn-outline" id="openDashboard">Meu painel</button></nav>
+</header>
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <span class="eyebrow"><span class="dot"></span> SUA VITRINE DIGITAL COMEÇA AQUI</span>
+    <h1>Encontre clientes.<br><span>Venda sites prontos.</span></h1>
+    <p>Escolha um modelo, personalize para o negócio do seu cliente e apresente sua proposta. Comece sem mensalidade de plataforma.</p>
+    <div class="hero-actions"><a class="btn btn-primary" href="#modelos">Explorar modelos <span>↗</span></a><a class="btn btn-quiet" href="#como-funciona">Como funciona <span>↓</span></a></div>
+    <div class="proof"><div class="avatars"><span>JC</span><span>MA</span><span>RL</span></div><p><b>Seu próximo cliente pode estar aqui.</b><br><small>Monte seu catálogo e comece a divulgar.</small></p></div>
+  </div>
+  <div class="hero-art">
+    <div class="glow"></div>
+    <div class="browser">
+      <div class="browser-top"><div class="traffic"><i></i><i></i><i></i></div><span>prévia-do-seu-site.com.br</span><span>•••</span></div>
+      <div class="preview">
+        <div class="preview-nav"><b>studio<span>.</span></b><span>Início　 Serviços　 Sobre　 Contato</span><button>Vamos conversar ↗</button></div>
+        <div class="preview-content"><div><small>DESIGN • ESTRATÉGIA • RESULTADOS</small><h2>Sua marca merece<br>ser lembrada.</h2><p>Uma presença digital feita para transformar visitas em oportunidades.</p><button>Conheça nosso trabalho →</button></div><div class="preview-shape"><div class="shape-inner">S<span>.</span></div></div></div>
+        <div class="preview-bottom"><span>01 / 04</span><span>Feito para crescer ↗</span></div>
+      </div>
+    </div>
+    <div class="floating-card"><span class="float-icon">↗</span><div><b>Nova oportunidade</b><small>Seu próximo projeto começa aqui</small></div><span class="live-dot"></span></div>
+    <div class="floating-tag">✦ Sites prontos para personalizar</div>
+  </div>
+</section>
+<section class="stats"><div><strong>01</strong><span>Escolha um modelo</span></div><div><strong>02</strong><span>Personalize a proposta</span></div><div><strong>03</strong><span>Converse com o cliente</span></div><div><strong>R$ 0</strong><span>Para testar este projeto</span></div></section>
+<section class="section" id="modelos">
+  <div class="section-heading"><div><span class="eyebrow">CATÁLOGO DE MODELOS</span><h2>Qual site você vai vender hoje?</h2><p>Explore ideias para negócios que precisam de presença online.</p></div><span class="catalog-count" id="catalogCount">06 modelos</span></div>
+  <div class="filters"><label class="search"><span>⌕</span><input id="searchInput" placeholder="Buscar por nome ou tipo de negócio..."></label><div class="filter-buttons" id="filterButtons"><button class="filter active" data-category="Todos">Todos</button><button class="filter" data-category="Serviços">Serviços</button><button class="filter" data-category="Comércio">Comércio</button><button class="filter" data-category="Beleza">Beleza</button><button class="filter" data-category="Alimentação">Alimentação</button></div></div>
+  <div class="template-grid" id="templateGrid"></div>
+</section>
+<section class="ai-section" id="assistente"><div class="ai-copy"><span class="eyebrow">✦ ASSISTENTE INTELIGENTE</span><h2>Transforme uma ideia<br>em uma proposta.</h2><p>Conte qual é o negócio do seu cliente e gere um texto inicial para apresentar seu serviço. Esta versão funciona localmente com modelos de texto simples, sem API paga.</p><div class="ai-note">✦ Dica: personalize o texto antes de enviar para o cliente.</div></div>
+  <div class="ai-panel"><div class="ai-panel-head"><div class="ai-avatar">✦</div><div><b>Assistente de Vendas</b><small><span class="live-dot"></span> Pronto para ajudar</small></div><span class="pill">GRÁTIS</span></div>
+  <label for="businessType">Qual é o tipo de negócio?</label><input id="businessType" placeholder="Ex.: barbearia, loja de roupas, eletricista">
+  <label for="clientNeed">O que o cliente precisa?</label><textarea id="clientNeed" rows="3" placeholder="Ex.: mostrar serviços, receber pedidos pelo WhatsApp..."></textarea>
+  <button class="btn btn-primary full" id="generatePitch">Gerar proposta <span>✦</span></button><div id="pitchOutput" class="pitch-output" aria-live="polite">Sua proposta aparecerá aqui.</div><button class="btn btn-outline full" id="copyPitch">Copiar proposta</button>
+  <p class="disclaimer">Assistente demonstrativo. Para IA real, será necessária uma integração com um serviço de IA e uma chave de API.</p></div>
+</section>
+<section class="how section" id="como-funciona"><div class="section-heading"><div><span class="eyebrow">SIMPLES ASSIM</span><h2>Do modelo ao primeiro contato</h2><p>Um fluxo simples para organizar sua oferta e começar a prospectar.</p></div></div><div class="steps"><article><span>01</span><div class="step-icon">▦</div><h3>Escolha o modelo</h3><p>Encontre um layout adequado ao ramo do cliente.</p></article><article><span>02</span><div class="step-icon">✎</div><h3>Prepare a proposta</h3><p>Adapte a mensagem, os serviços e o valor combinado.</p></article><article><span>03</span><div class="step-icon">↗</div><h3>Entre em contato</h3><p>Use o WhatsApp para apresentar a ideia ao cliente.</p></article></div></section>
+<section class="cta"><div><span class="eyebrow">SEU NEGÓCIO DIGITAL</span><h2>Seu próximo projeto começa com uma conversa.</h2><p>Configure seu WhatsApp e divulgue seu catálogo.</p></div><a class="btn btn-primary" id="mainWhatsapp" href="#" target="_blank" rel="noopener">Falar pelo WhatsApp ↗</a></section>
+</main>
+<footer><a class="brand" href="#"><span class="brand-mark">VC</span><span>Vendas para <b>Clientes</b></span></a><p>Projeto inicial gratuito • Personalize antes de publicar</p><span>© <span id="year"></span> Vendas para Clientes</span></footer>
+<div class="modal-backdrop" id="dashboardModal" hidden><section class="dashboard modal"><button class="close" id="closeDashboard" aria-label="Fechar">×</button><span class="eyebrow">ÁREA DE TRABALHO</span><h2>Meu painel</h2><p class="muted">Painel demonstrativo: os dados ficam apenas nesta sessão do navegador.</p><div class="dash-stats"><div><small>Modelos disponíveis</small><strong id="dashTemplates">06</strong></div><div><small>Propostas criadas</small><strong id="pitchCount">0</strong></div><div><small>Configuração</small><strong>Inicial</strong></div></div><label for="whatsNumber">Seu WhatsApp (com DDI e DDD)</label><input id="whatsNumber" placeholder="Ex.: 5521999999999"><button class="btn btn-primary full" id="saveSettings">Salvar configuração neste navegador</button><p id="settingsStatus" class="muted"></p><div class="dash-tip"><b>Próximas etapas</b><p>Conectar banco de dados, login seguro, domínio próprio e IA real quando quiser evoluir o projeto.</p></div></section></div>
+<div class="toast" id="toast" role="status"></div>
+<script src="app.js"></script>
+</body></html>
